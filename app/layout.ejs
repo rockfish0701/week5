@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title><%- title %></title>
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+  rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    
+    <div class="container-fluid d-flex">
+      <nav class="sidebarMenu d-flex flex-column justify-content-between">
+        <div>
+          <h1 class="sidebarMenu-title">
+            <a href="./index.html">
+              ANSWER
+            </a>
+          </h1>
+  
+          <ul class="list-group ">
+            <li class="list-group-item border-0 sidebarMenu-list p-0 mb-4">
+              <a href="#" class="sidebarMenu-link d-flex align-items-center">
+                <span class="material-icons me-3">
+                  insert_chart
+                </span>
+                Dashboard
+              </a>
+            </li>
+
+            <li class="list-group-item border-0 sidebarMenu-list p-0 mb-4">
+              <a href="#" class="sidebarMenu-link d-flex align-items-center">
+                <span class="material-icons me-3">
+                  question_answer
+                </span>
+                Question
+              </a>
+            </li>
+
+            <li class="list-group-item border-0 sidebarMenu-list p-0 mb-4">
+              <a href="./index.html" class="sidebarMenu-link d-flex align-items-center text-success">
+                <span class="material-icons me-3">
+                  assignment
+                </span>
+                Assignment
+              </a>
+            </li>
+
+            <li class="list-group-item border-0 sidebarMenu-list p-0 mb-4">
+              <a href="#" class="sidebarMenu-link d-flex align-items-center">
+                <span class="material-icons me-3">
+                  video_library
+                </span>
+                Course
+              </a>
+            </li>
+
+            <li class="list-group-item border-0 sidebarMenu-list p-0 mb-4">
+              <a href="#" class="sidebarMenu-link d-flex align-items-center">
+                <span class="material-icons me-3">
+                  people
+                </span>
+                Admin
+              </a>
+            </li>
+
+            <li class="list-group-item border-0 sidebarMenu-list p-0">
+              <a href="#" class="sidebarMenu-link d-flex align-items-center">
+                <span class="material-icons me-3">
+                  settings
+                </span>
+                Settings
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="card flex-row border-0 sidebarMenu-info sidebarMenu-card align-items-center">
+          <div class="sidebarMenu-avatar me-3"></div>
+          <div class="card-body p-0">
+            <h5 class="card-title fw-bold mb-1">Andy Chen</h5>
+            <p class="card-text sidebarMenu-mail">
+              andy0401@mail.com
+            </p>
+          </div>
+        </div>
+      </nav>
+      <%- contents %>
+    </div>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"crossorigin="anonymous"></script>
+  </body>
+
+</html>

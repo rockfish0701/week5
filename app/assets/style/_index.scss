@@ -1,0 +1,76 @@
+.assignment {
+    width: 80%;
+    padding: 32px;
+    .header {
+        &-subTitle {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        &-notifications {
+            color: black;
+        }
+        &-search {
+            color: black;
+        }
+    }
+
+    .list-group-item {
+        padding: 12px;
+    }
+    &-comment {
+        font-size: 12px;
+    }
+
+    &-info {
+        width: 35%;
+    }
+    &-item {
+        border: 1px solid #ced4da;
+    }
+    &-text {
+        font-size: 12px;
+    }
+
+    &-detail {
+        width: 63%;
+    }
+    &-detailTitle {
+        border: 1px solid #ced4da;
+    }
+    &-detailItem {
+        border: 1px solid #ced4da;
+    }
+    //女生大頭像
+    &-avatar-woman {
+        width: 40px;
+        height: 40px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emilywang.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+    //男生大頭像
+    &-avatar-man {
+        width: 40px;
+        height: 40px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+    &-personalNote {
+        width: 88%;
+    }
+    &-file {
+        width: 40%;
+        border: 1px solid #ced4da;
+    }
+    &-button {
+        border: 1px solid #198754;
+        padding: 32px;
+    }
+}
+
+

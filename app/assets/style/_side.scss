@@ -1,0 +1,53 @@
+.container-fluid {
+    .sidebarMenu {
+        background-color: #f8f9fa;
+        width: 20%;
+        min-height: 100vh;
+        &-title {
+            padding: 32px;
+            a {
+                display: block;
+                background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+                width: 151px;
+                height: 40px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                white-space: nowrap; 
+                text-indent: 101%; 
+                overflow: hidden; 
+            }
+        }
+        &-link {
+            color: #212529;
+            font-weight: bold;
+            padding-left: 32px;
+            &:hover {
+                border-left: 4px solid #198754;
+                color: green;
+            }
+        }
+        &-list {
+            background-color: #f8f9fa;
+        }
+        &-info {
+            padding-left: 32px;
+            padding-bottom: 32px;
+        }
+        &-card {
+            background-color: #f8f9fa;
+        }
+        &-avatar {
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+            background-position: center;
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        &-mail {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}
